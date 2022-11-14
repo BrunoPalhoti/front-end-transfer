@@ -1,0 +1,39 @@
+.titulo {
+  margin-left: 400px;;
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: rgb(78, 255, 43);
+}
+
+.tabela {
+  text-align: center;
+  color: rgb(78, 255, 43);
+  margin-left: 100px;
+  background-color: white;
+  box-shadow: 0 0 8px rgb(223, 220, 16);
+
+  &__cabecalho {
+    color: rgb(78, 255, 43);
+
+    &__conteudo {
+      padding: 10px;
+      border-bottom: 2px solid green;
+    }
+  }
+
+  &__linha {
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+    &:last-child {
+      .tabela__conteudo {
+        border-bottom: none;
+      }
+    }
+  }
+
+  &__conteudo {
+    padding: 10px;
+    border-bottom: 1px solid var(--cinza-claro);
+  }
+}

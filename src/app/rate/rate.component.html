@@ -1,0 +1,31 @@
+<section class="container">
+  <h2 class="titulo">Transferências</h2>
+<table class="tabela">
+
+  <thead class="tabela__cabecalho">
+    <th class="tabela__cabecalho__conteudo">Conta de origem </th>
+    <th class="tabela__cabecalho__conteudo">Conta de destino</th>
+    <th class="tabela__cabecalho__conteudo">Data de agendamento</th>
+    <th class="tabela__cabecalho__conteudo">Data da transferência</th>
+    <th class="tabela__cabecalho__conteudo">Valor</th>
+    <th class="tabela__cabecalho__conteudo">Taxa</th>
+    <th class="tabela__cabecalho__conteudo">Tipo</th>
+  </thead>
+
+  <tbody *ngIf="transferExtract?.length; else emptyList">
+  <tr class="tabela__linha" *ngFor="let transfer of transferExtract" >
+    <th class="tabela__conteudo">{{transfer?.accountOring}}</th>
+    <th class="tabela__conteudo">{{transfer?.accountDestin}}</th>
+    <th class="tabela__conteudo">{{transfer?.dateTransfer}}</th>
+    <th class="tabela__conteudo">{{transfer?.dateScheduled}}</th>
+    <th class="tabela__conteudo">{{transfer?.velue}}</th>
+    <th class="tabela__conteudo">{{transfer?.rate}}</th>
+    <th class="tabela__conteudo">{{transfer?.period}}</th>
+  </tr>
+  </tbody>
+
+</table>
+
+<ng-template #emptyList>
+</ng-template>
+</section>

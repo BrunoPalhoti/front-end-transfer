@@ -1,0 +1,22 @@
+header {
+  background-color: rgb(78, 255, 43);
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .ativo {
+    display: none;
+  }
+}
+
+main {
+  background-color: #fcfcfc;
+  padding: var(--padding);
+}
