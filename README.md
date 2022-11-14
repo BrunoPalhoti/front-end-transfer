@@ -1,27 +1,53 @@
-# Trasnfer
+# back-end-transfer
+<h2> Back-end (https://github.com/IsadoraPalhoti/back-end-transfer) </h2>
+<h3> Tecnologias usadas no Back-end </h3>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
+- `Spring Boot`
+- `JDK 11`
+- `Apache Maven`
+- `H2`
+- `Lombok`
 
-## Development server
+<h3> Como Rodar o Projeto </h3>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- `Baixar o projeto e subir localmente na branch master`
+- `Porta utilizada: http://localhost:8080`
 
-## Code scaffolding
+<h3> Detalhe do Projeto </h3>
+<p>O backend foi desenvolvido utilizando quatro camadas</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- `Resourse: aonde fica os endpoints `
+- `Repository: aonde fica a camada com o JPA`
+- `Factory: aonde está a logica do projeto`
+- `Service: que fica responsavel em mandar salvar os dados`
 
-## Build
+<p>Endpoints</p>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- `GET: http://localhost:8080/transfer`
+- `POST: http://localhost:8080/transfer`
 
-## Running unit tests
+<p> JSON para teste no PostMan </p>
+<p>{
+      <p>"accountOring": "xxxxxx",</p>
+      <p>"accountDestin": "xxxxx",</p>
+      <p>"velue": 100.00,</p>
+      <p>"dateScheduled": "13/11/2022",</p>
+    <p>"period": "A"</p>
+} </p>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h2> Back-end </h2>
+<h3> Tecnologias usadas no Front-end </h3>
 
-## Running end-to-end tests
+- `Angular 12.05`
+- `Node 14.17.1`
+- `Bootstrap`
+- `scss`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h3> Como Rodar o Projeto </h3>
 
-## Further help
+- `Baixar o projeto e subir localmente na branch master`
+- `Porta utilizada:http://localhost:4200/rate`
+<p> Imagem das Telas do projeto </p>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://user-images.githubusercontent.com/43323404/201694619-88daaac9-88ab-4447-9ab1-e45387ae68fc.png)
+![image](https://user-images.githubusercontent.com/43323404/201694739-603e1e02-82d0-4369-879d-caf6e8cff0e1.png)
