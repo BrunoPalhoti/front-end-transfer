@@ -16,10 +16,10 @@
 <h3> Detalhe do Projeto </h3>
 <p>O backend foi desenvolvido utilizando quatro camadas</p>
 
-- `Resourse: aonde fica os endpoints `
-- `Repository: aonde fica a camada com o JPA`
-- `Factory: aonde está a logica do projeto`
-- `Service: que fica responsavel em mandar salvar os dados`
+- `Resourse: onde fica os endpoints `
+- `Repository: onde fica a camada com o JPA`
+- `Factory: onde está a lógica do projeto`
+- `Service: que fica responsável em mandar salvar os dados`
 
 <p>Endpoints</p>
 
