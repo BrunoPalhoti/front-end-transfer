@@ -35,7 +35,7 @@
     <p>"period": "A"</p>
 } </p>
 
-<h2> Back-end </h2>
+<h2> Front-end </h2>
 <h3> Tecnologias usadas no Front-end </h3>
 
 - `Angular 12.05`
